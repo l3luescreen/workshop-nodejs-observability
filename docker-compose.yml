@@ -43,6 +43,6 @@ services:
         container_name: Grafana
         image: grafana/grafana-enterprise:8.2.0
         ports:
-            - "9999:9999"
+            - "9999:3000"
         environment:
             TZ: Asia/Bangkok
